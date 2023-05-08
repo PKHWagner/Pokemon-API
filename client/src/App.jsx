@@ -48,9 +48,9 @@ function App() {
         {
           allPokemon.map((pokemon, i) => (
             <div key={i}>
-              <ul>
-                <li>{pokemon.name}</li>
-              </ul>
+
+              <p>{pokemon.name}</p>
+
             </div >
           ))
         }
